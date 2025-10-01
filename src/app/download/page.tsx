@@ -1,13 +1,20 @@
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
+import Seo from "@/components/layout/seo";
 import DownloadCard from "@/features/download/components/DownloadCard";
 import { siteConfig } from "@/config/site";
 
 export default function DownloadPage() {
   const { hero, cards } = siteConfig.download;
+  const canonical = `${siteConfig.seo.siteUrl}/download`;
 
   return (
     <>
+      <Seo
+        title="Download"
+        description="Grab the latest Asakiri Course Creator builds for macOS and Windows."
+        canonical={canonical}
+      />
       <Header />
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-12 px-6 py-16">
         <section className="mx-auto max-w-3xl space-y-4 text-center">

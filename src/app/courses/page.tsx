@@ -1,5 +1,7 @@
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
+import Seo from "@/components/layout/seo";
+import { siteConfig } from "@/config/site";
 import CourseCard from "@/features/courses/components/CourseCard";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -70,9 +72,11 @@ function formatNameFromSlug(slug: string) {
 
 export default async function CoursesPage() {
   const courses = await getCourses();
+  const canonical = `${siteConfig.seo.siteUrl}/courses`;
 
   return (
     <>
+      <Seo title="Courses" description="Browse the available Asakiri courses." canonical={canonical} />
       <Header />
       <div className="space-y-8 p-8">
         <header className="space-y-1">
