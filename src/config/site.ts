@@ -135,13 +135,13 @@ export const siteConfig = {
     ],
   },
   links: {
-    github: "https://github.com",
+    github: "https://github.com/Alekoii/asakiri-website",
     discord: "https://discord.gg/6VhDw5RXJ2",
     download: "/download",
     demoVideo: "https://youtu.be/LJoEt5Qoz2M",
-    supportEmail: "hello@asakiri.com",
+    supportEmail: "alok@asakiri.com",
     patreon: "https://www.patreon.com/c/asakiri",
-    releases: "https://github.com/asakiri/app/releases/latest",
+    releases: "https://github.com/Alekoii/asakiri-website",
   },
   home: {
     hero: {
@@ -232,14 +232,14 @@ export const siteConfig = {
         platform: "mac",
         title: "macOS (Universal)",
         description:
-          "Universal binary optimised for Apple silicon and Intel Macs. Includes auto-updates and native spellcheck.",
+          "Universal binary optimised for Apple silicon and Intel Macs",
         version: "0.4.0",
         releaseNotesHref: "https://www.patreon.com/c/asakiri",
         build: {
-          href: "https://downloads.asakiri.com/asakiri-alpha-macos.dmg",
+          href: "https://github.com/Alekoii/asakiri-website/releases/download/v0.2.2/Asakiri.app.zip",
           label: "Download for macOS",
-          fileSize: "DMG • 128 MB",
-          checksumHref: "https://downloads.asakiri.com/asakiri-alpha-macos.sha256",
+          fileSize: "DMG • 12.2 MB",
+          checksumHref: "",
           external: true,
         },
       },
@@ -247,14 +247,14 @@ export const siteConfig = {
         platform: "windows",
         title: "Windows (64-bit)",
         description:
-          "Built for Windows 11 and 10 with bundled prerequisites. Ships with automatic sync and offline project support.",
+          "Built for Windows 11 and 10 with bundled prerequisites. Ships with offline project support.",
         version: "0.4.0",
         releaseNotesHref: "https://www.patreon.com/c/asakiri",
         build: {
-          href: "https://downloads.asakiri.com/asakiri-alpha-windows.exe",
+          href: "https://github.com/Alekoii/asakiri-website/releases/download/v0.2.2/Asakiri.exe",
           label: "Download for Windows",
           fileSize: "EXE • 134 MB",
-          checksumHref: "https://downloads.asakiri.com/asakiri-alpha-windows.sha256",
+          checksumHref: "",
           external: true,
         },
       },
@@ -284,7 +284,7 @@ export const siteConfig = {
             href: "https://discord.gg/6VhDw5RXJ2",
             external: true,
           },
-          { label: "GitHub", href: "https://github.com", external: true },
+          { label: "GitHub", href: "https://github.com/Alekoii/asakiri-website", external: true },
           {
             label: "Support on Patreon",
             href: "https://www.patreon.com/c/asakiri",
@@ -309,7 +309,7 @@ export const siteConfig = {
       },
     ],
     social: [
-      { label: "GitHub", href: "https://github.com", icon: Github },
+      { label: "GitHub", href: "https://github.com/Alekoii/asakiri-website", icon: Github },
       {
         label: "Discord",
         href: "https://discord.gg/6VhDw5RXJ2",
