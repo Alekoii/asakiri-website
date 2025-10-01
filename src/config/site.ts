@@ -253,7 +253,7 @@ export const siteConfig = {
         build: {
           href: "https://github.com/Alekoii/asakiri-website/releases/download/v0.2.2/Asakiri.exe",
           label: "Download for Windows",
-          fileSize: "EXE • 134 MB",
+          fileSize: "EXE • 19.2 MB",
           checksumHref: "",
           external: true,
         },
