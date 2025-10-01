@@ -59,7 +59,7 @@ export default function VocabSection({
           {vocabulary.map((entry, index) => (
             <li
               key={String(entry.ref?.key ?? index)}
-              className="rounded-2xl border border-border/60 bg-card p-4 text-card-foreground shadow-sm"
+              className="rounded-2xl border border-border/60 bg-card p-4 text-card-foreground"
             >
               <VocabCard entry={entry} />
             </li>
