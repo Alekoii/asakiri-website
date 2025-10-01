@@ -1,66 +1,13 @@
-import LessonChip from "@/features/course/components/lesson-chip";
-import fs from "node:fs/promises";
-import path from "node:path";
-import { notFound } from "next/navigation";
 import Header from "@/components/layout/header";
-
-interface Lesson {
-  id?: string;
-  title?: string;
-  path?: string;
-}
-
-interface CourseUnit {
-  id?: string;
-  title?: string;
-  lessons?: Lesson[];
-}
-
-interface CourseSection {
-  id?: string;
-  title?: string;
-  lessons?: Lesson[];
-  units?: CourseUnit[];
-}
-
-interface CourseManifest {
-  createdAt?: string;
-  project?: {
-    name?: string;
-    description?: string;
-    language?: string;
-  };
-  courseStructure?: CourseSection[];
-}
-
-async function readManifest(slug: string): Promise<CourseManifest | null> {
-  const manifestPath = path.join(
-    process.cwd(),
-    "src/data/courses",
-    slug,
-    "manifest.json"
-  );
-
-  try {
-    const raw = await fs.readFile(manifestPath, "utf8");
-    return JSON.parse(raw) as CourseManifest;
-  } catch (error) {
-    console.error(`Unable to read manifest for course "${slug}"`, error);
-    return null;
-  }
-}
-
-function buildLessonHref(slug: string, lesson?: Lesson) {
-  if (!lesson?.id) {
-    return undefined;
-  }
-
-  return `/courses/${slug}/lessons/${lesson.id}`;
-}
+import LessonChip from "@/features/course/components/lesson-chip";
+import {
+  buildLessonHref,
+  getDisplayUnitTitle,
+  readManifest,
+} from "@/features/course/lib/manifest";
+import { notFound } from "next/navigation";
 
 const chipVariants = ["green", "yellow", "blue"] as const;
-
-const rowTitlePattern = /^Row\s+\d+$/i;
 
 function pickVariant(index: number) {
   return chipVariants[index % chipVariants.length];
@@ -119,17 +66,14 @@ export default async function CourseDetailPage({ params }: CoursesPageProps) {
                 <div className="space-y-6">
                   {section.units.map((unit) => {
                     const normalizedTitle = unit.title?.trim();
-                    const displayTitle = !normalizedTitle
-                      ? "Module"
-                      : rowTitlePattern.test(normalizedTitle)
-                        ? undefined
-                        : normalizedTitle;
+                    const displayTitle = getDisplayUnitTitle(unit.title);
+                    const titleToRender = displayTitle ?? (!normalizedTitle ? "Module" : undefined);
 
                     return (
                       <div key={unit.id ?? unit.title} className="space-y-3">
-                        {displayTitle ? (
+                        {titleToRender ? (
                           <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-                            {displayTitle}
+                            {titleToRender}
                           </h3>
                         ) : null}
                         <div className="flex gap-5 mx-auto justify-center">
