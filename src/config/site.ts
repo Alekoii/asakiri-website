@@ -233,7 +233,7 @@ export const siteConfig = {
         title: "macOS (Universal)",
         description:
           "Universal binary optimised for Apple silicon and Intel Macs",
-        version: "0.4.0",
+        version: "0.2.2",
         releaseNotesHref: "https://www.patreon.com/c/asakiri",
         build: {
           href: "https://github.com/Alekoii/asakiri-website/releases/download/v0.2.2/Asakiri.app.zip",
@@ -248,7 +248,7 @@ export const siteConfig = {
         title: "Windows (64-bit)",
         description:
           "Built for Windows 11 and 10 with bundled prerequisites. Ships with offline project support.",
-        version: "0.4.0",
+        version: "0.2.2",
         releaseNotesHref: "https://www.patreon.com/c/asakiri",
         build: {
           href: "https://github.com/Alekoii/asakiri-website/releases/download/v0.2.2/Asakiri.exe",
