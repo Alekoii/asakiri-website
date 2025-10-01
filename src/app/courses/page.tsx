@@ -1,3 +1,4 @@
+import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
 import CourseCard from "@/features/courses/components/CourseCard";
 import fs from "node:fs/promises";
@@ -73,11 +74,11 @@ export default async function CoursesPage() {
   return (
     <>
       <Header />
-      <div className="space-y-8">
-        <header className="space-y-3">
+      <div className="space-y-8 p-8">
+        <header className="space-y-1">
           <h1 className="text-3xl font-semibold tracking-tight">Courses</h1>
           <p className="text-muted-foreground">
-            Browse the available courses and jump back into your studies.
+            Browse the available courses.
           </p>
         </header>
         {courses.length ? (
@@ -105,6 +106,7 @@ export default async function CoursesPage() {
           <p className="text-muted-foreground">No courses found yet.</p>
         )}
       </div>
+      <Footer />
     </>
   );
 }

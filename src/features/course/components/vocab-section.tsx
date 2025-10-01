@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
 
 const COMMON_EXCLUDED_FIELDS = new Set([
   "id",
@@ -44,9 +44,22 @@ export default function VocabSection({
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <h2 className="text-xl font-semibold text-foreground">{title}</h2>
           {practiceHref ? (
-            <Button asChild variant="secondary" size="lg">
-              <Link href={practiceHref}>{practiceLabel}</Link>
-            </Button>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <span className="inline-flex" tabIndex={0}>
+                  <Button
+                    type="button"
+                    variant="secondary"
+                    size="lg"
+                    disabled
+                    aria-disabled="true"
+                  >
+                    {practiceLabel}
+                  </Button>
+                </span>
+              </TooltipTrigger>
+              <TooltipContent sideOffset={8}>Practice is coming soon</TooltipContent>
+            </Tooltip>
           ) : null}
         </div>
         <p className="text-sm text-muted-foreground">
