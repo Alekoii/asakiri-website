@@ -1,0 +1,32 @@
+{
+  "name": "Names",
+  "schema": [
+    {
+      "name": "id",
+      "type": "UUID",
+      "pk": true
+    },
+    {
+      "name": "Name",
+      "type": "TEXT"
+    },
+    {
+      "name": "Kana",
+      "type": "TEXT"
+    },
+    {
+      "name": "English",
+      "type": "TEXT"
+    }
+  ],
+  "data": [
+    {
+      "English": "Tanaka",
+      "Kana": "たなか",
+      "Name": "田中",
+      "created_at": "2025-09-23T16:31:40Z",
+      "id": "dfbf19b9-5b8b-72bc-7491-b366fe732fe5",
+      "modified_at": "2025-09-23T16:31:40Z"
+    }
+  ]
+}

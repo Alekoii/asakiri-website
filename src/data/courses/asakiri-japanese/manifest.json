@@ -1,0 +1,128 @@
+{
+  "formatVersion": "2.0",
+  "createdAt": "2025-09-30T16:03:30Z",
+  "project": {
+    "name": "Asakiri Japanese",
+    "description": "A demo Japanese Course",
+    "language": "Japanese"
+  },
+  "courseStructure": [
+    {
+      "id": "45643f11-e8bf-44de-8a5c-c80e8c720fdb",
+      "title": "Unit 1 : Basics",
+      "units": [
+        {
+          "id": "98e55499-7c1b-4018-8a63-dd9788728706",
+          "title": "Row 1",
+          "lessons": [
+            {
+              "id": "lesson-2",
+              "title": "Hiragana 1",
+              "path": "course/lesson-2.json"
+            },
+            {
+              "id": "lesson-3",
+              "title": "Hiragana 2",
+              "path": "course/lesson-3.json"
+            }
+          ]
+        },
+        {
+          "id": "98620162-5a34-4721-b35a-229cb7de5256",
+          "title": "Row 2",
+          "lessons": [
+            {
+              "id": "lesson-1",
+              "title": "Copula です／か  - Greetings \u0026 Self Intro",
+              "path": "course/lesson-1.json"
+            },
+            {
+              "id": "lesson-7",
+              "title": "Particles は・が・を・の - Classroom \u0026 Stud",
+              "path": "course/lesson-7.json"
+            },
+            {
+              "id": "lesson-8",
+              "title": "Location に・で／ある・いる - Daily Routines",
+              "path": "course/lesson-8.json"
+            },
+            {
+              "id": "lesson-9",
+              "title": "Adjectives（い／な）・否定 - Shopping",
+              "path": "course/lesson-9.json"
+            }
+          ]
+        },
+        {
+          "id": "6c0efea8-84f8-4f73-9477-bc8f9954a866",
+          "title": "Row 3",
+          "lessons": [
+            {
+              "id": "lesson-11",
+              "title": "Verb ます形／辞書形 - Travel \u0026 Directions",
+              "path": "course/lesson-11.json"
+            }
+          ]
+        },
+        {
+          "id": "538df28d-95cc-435b-a271-1861684daf0a",
+          "title": "Row 4",
+          "lessons": [
+            {
+              "id": "lesson-5",
+              "title": "Katakana 1",
+              "path": "course/lesson-5.json"
+            },
+            {
+              "id": "lesson-6",
+              "title": "Katakana 2",
+              "path": "course/lesson-6.json"
+            }
+          ]
+        },
+        {
+          "id": "366cf731-2e9f-495a-a6ef-95720e84d907",
+          "title": "Row 5",
+          "lessons": [
+            {
+              "id": "lesson-4",
+              "title": "Kanji 1",
+              "path": "course/lesson-4.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f56e0a75-80f1-40e9-b775-c406280b251c",
+      "title": "Unit 2",
+      "units": []
+    }
+  ],
+  "tables": [
+    {
+      "name": "Demo",
+      "path": "tables/Demo.json"
+    },
+    {
+      "name": "Kanji",
+      "path": "tables/Kanji.json"
+    },
+    {
+      "name": "Names",
+      "path": "tables/Names.json"
+    },
+    {
+      "name": "Vocab_V2",
+      "path": "tables/Vocab_V2.json"
+    },
+    {
+      "name": "Vocab_V3",
+      "path": "tables/Vocab_V3.json"
+    },
+    {
+      "name": "Vocab",
+      "path": "tables/Vocab.json"
+    }
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "id": "lesson-1",
+  "title": "Copula です／か  - Greetings \u0026 Self Intro",
+  "content": {
+    "sections": [
+      {
+        "content": {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "Build first polite self-introductions using the copula 'です' and question particle 'か'.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "Recycle high-frequency greeting phrases so learners can open and close short conversations.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "Connect personal information (name, role, origin) to the thematic vocabulary for early interpersonal exchanges.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bulletList"
+            },
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "type": "paragraph"
+            }
+          ],
+          "type": "doc"
+        },
+        "id": "a0609ac4-79bf-43cd-bf6c-1589691e7620",
+        "order_index": 0,
+        "title": "Overview",
+        "type": "rich"
+      },
+      {
+        "content": {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "State and ask for names, roles, and countries with 'A は B です／か' at an N5 level.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "Respond to simple identity questions with affirmative ('〜です') and negative ('〜ではありません') forms.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "Deliver a 4–6 line self-introduction that combines greetings, name, role, origin, and a courteous closing.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bulletList"
+            },
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "type": "paragraph"
+            }
+          ],
+          "type": "doc"
+        },
+        "id": "1758643738369",
+        "order_index": 1,
+        "title": "Learning Objectives",
+        "type": "rich"
+      },
+      {
+        "content": {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "Basic hiragana recognition and polite greeting awareness (e.g., こんにちは).",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "Exposure to particle 'は' as a topic marker (pre-taught in onboarding or preview note).",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bulletList"
+            },
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "type": "paragraph"
+            }
+          ],
+          "type": "doc"
+        },
+        "id": "1758643796463",
+        "order_index": 2,
+        "title": "Prerequisites",
+        "type": "rich"
+      },
+      {
+        "content": {
+          "content": [
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "The polite copula 'です' works like the English verb 'to be' when connecting a topic to a noun that identifies or classifies it.",
+                  "type": "text"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "Structure: 'A は B です' where 'A' is the topic (often a person or thing already known) and 'B' is the label or role you assign.",
+                  "type": "text"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "attrs": {
+                            "column_name": "Furigana",
+                            "record_key": 8126,
+                            "table_name": "Vocab",
+                            "value": "わたし"
+                          },
+                          "type": "reference"
+                        },
+                        {
+                          "text": "は",
+                          "type": "text"
+                        },
+                        {
+                          "attrs": {
+                            "rt": "たなか"
+                          },
+                          "content": [
+                            {
+                              "attrs": {
+                                "column_name": "Name",
+                                "record_key": 1,
+                                "table_name": "Names",
+                                "value": "田中"
+                              },
+                              "type": "reference"
+                            }
+                          ],
+                          "type": "ruby"
+                        },
+                        {
+                          "text": "です。\"I am Tanaka.\"",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "わたしの",
+                          "type": "text"
+                        },
+                        {
+                          "attrs": {
+                            "column_name": "Word",
+                            "record_key": 7902,
+                            "table_name": "Vocab",
+                            "value": "名前"
+                          },
+                          "type": "reference"
+                        },
+                        {
+                          "text": "はマリアです。\"My name is Maria.\"",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "こちらは",
+                          "type": "text"
+                        },
+                        {
+                          "attrs": {
+                            "column_name": "Word",
+                            "record_key": 7767,
+                            "table_name": "Vocab",
+                            "value": "先生"
+                          },
+                          "type": "reference"
+                        },
+                        {
+                          "text": "です。\"This person is a teacher.\"",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bulletList"
+            },
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "Common identity nouns such as ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "column_name": "Word",
+                    "record_key": 7568,
+                    "table_name": "Vocab",
+                    "value": "学生"
+                  },
+                  "type": "reference"
+                },
+                {
+                  "text": " (student) and '先生' (teacher) let you talk about yourself and others right away. After you state the topic once, you can often drop it: '",
+                  "type": "text"
+                },
+                {
+                  "marks": [
+                    {
+                      "type": "underline"
+                    }
+                  ],
+                  "text": "わたしは",
+                  "type": "text"
+                },
+                {
+                  "text": "学生です。' -\u003e '学生です。' when the subject is clear from context.",
+                  "type": "text"
+                }
+              ],
+              "type": "paragraph"
+            }
+          ],
+          "type": "doc"
+        },
+        "id": "1758643864549",
+        "order_index": 3,
+        "title": "1. Affirmative statements with です",
+        "type": "rich"
+      },
+      {
+        "content": {
+          "content": [
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "Add the particle 'か' directly after 'です' to turn the sentence into a polite question. The rising pitch at the end cues the listener that a response is expected.",
+                  "type": "text"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "おなまえはなんですか。\"What is your name?\" introduces the respectful prefix 'お' on '名前'. ",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "どこから来ましたか。\"Where are you from?\" previews the travel verb '来ました' while keeping the copula-centric focus.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bulletList"
+            },
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "Yes or no questions reuse the same pattern: '学生ですか。' Expect answers like 'はい、学生です。' or 'いいえ、学生ではありません。'",
+                  "type": "text"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "When you need specific information, drop the question word into the slot you are asking about.",
+                  "type": "text"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "メアリーさんは何ですか。 -\u003e 'メアリーさんは学生です。'",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "textAlign": null
+                      },
+                      "content": [
+                        {
+                          "text": "おくにはどこですか。 -\u003e 'おくにはアメリカです。'",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bulletList"
+            },
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "'どちら' works like a more polite 'where' when speaking with teachers or new acquaintances.",
+                  "type": "text"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "Answer with the same structure to reinforce the form: 'アメリカの学生です。' or '日本の先生です。'",
+                  "type": "text"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "Country words ('国') often combine with the suffix '〜人' (pronounced 'じん') to describe nationality: '日本人です。' means 'I am Japanese.' Treat this as bonus input for now; later lessons will unpack the pattern in detail. ",
+                  "type": "text"
+                }
+              ],
+              "type": "paragraph"
+            }
+          ],
+          "type": "doc"
+        },
+        "id": "1758645263852",
+        "order_index": 4,
+        "title": "2. Polite questions with か",
+        "type": "rich"
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "ref": {
+        "table": "Vocab",
+        "key": "8126"
+      },
+      "data": {
+        "Furigana": "わたし",
+        "Meaning": "I, myself",
+        "Word": "私",
+        "created_at": "2025-09-23T14:39:23Z",
+        "id": "e1d1f7fa-21da-55f9-bdc5-7b1666f457a1",
+        "modified_at": "2025-09-23T14:39:23Z",
+        "rowid": 8126
+      }
+    },
+    {
+      "ref": {
+        "table": "Names",
+        "key": "1"
+      },
+      "data": {
+        "English": "Tanaka",
+        "Kana": "たなか",
+        "Name": "田中",
+        "created_at": "2025-09-23T16:31:40Z",
+        "id": "dfbf19b9-5b8b-72bc-7491-b366fe732fe5",
+        "modified_at": "2025-09-23T16:31:40Z",
+        "rowid": 1
+      }
+    },
+    {
+      "ref": {
+        "table": "Vocab",
+        "key": "7902"
+      },
+      "data": {
+        "Furigana": "なまえ",
+        "Meaning": "name",
+        "Word": "名前",
+        "created_at": "2025-09-23T14:39:23Z",
+        "id": "f977e4ab-7f91-8d49-0038-435605263135",
+        "modified_at": "2025-09-23T14:39:23Z",
+        "rowid": 7902
+      }
+    },
+    {
+      "ref": {
+        "table": "Vocab",
+        "key": "7767"
+      },
+      "data": {
+        "Furigana": "せんせい",
+        "Meaning": "teacher, professor; master; doctor",
+        "Word": "先生",
+        "created_at": "2025-09-23T14:39:23Z",
+        "id": "ea04ea86-770d-e974-bda8-7c920daf515c",
+        "modified_at": "2025-09-23T14:39:23Z",
+        "rowid": 7767
+      }
+    },
+    {
+      "ref": {
+        "table": "Vocab",
+        "key": "7568"
+      },
+      "data": {
+        "Furigana": "がくせい",
+        "Meaning": "student",
+        "Word": "学生",
+        "created_at": "2025-09-23T14:39:23Z",
+        "id": "b095197f-e9f6-8c31-7c5b-ae653fc98f6a",
+        "modified_at": "2025-09-23T14:39:23Z",
+        "rowid": 7568
+      }
+    }
+  ]
+}
