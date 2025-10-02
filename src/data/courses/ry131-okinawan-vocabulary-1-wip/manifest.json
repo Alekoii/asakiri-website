@@ -1,0 +1,26 @@
+{
+  "formatVersion": "2.0",
+  "createdAt": "2025-10-01T16:53:22.296Z",
+  "project": {
+    "name": "RY131: Okinawan Vocabulary 1 (WIP)"
+  },
+  "courseStructure": [
+    {
+      "id": "6dace17e-92d1-4f5c-8710-08024733d349",
+      "title": "RY131: Okinawan Vocabulary 1 (WIP) Lessons",
+      "lessons": [
+        {
+          "id": "01-chapter-0",
+          "title": "Chapter 1: Chapter 0",
+          "path": "course/01-chapter-0.json"
+        },
+        {
+          "id": "114-beginner-vocabulary-1-32-words",
+          "title": "Chapter 114: Beginner Vocabulary 1 - あ (32 words)",
+          "path": "course/114-beginner-vocabulary-1-32-words.json"
+        }
+      ]
+    }
+  ],
+  "tables": []
+}

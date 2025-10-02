@@ -1,0 +1,114 @@
+{
+  "id": "114-beginner-vocabulary-1-32-words",
+  "title": "Chapter 114: Beginner Vocabulary 1 - あ (32 words)",
+  "content": {
+    "sections": [
+      {
+        "id": "30d06ee9-9264-4f15-98d1-414771cadcb9",
+        "title": "Overview",
+        "type": "rich",
+        "order_index": 0,
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Description: Here are 32 words beginning with あ"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "3ce925e4-1753-43df-bc6b-1dbbf6646f77",
+        "title": "Hiragana / Katakana",
+        "type": "rich",
+        "order_index": 1,
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "For this course, hiragana and katakana will remain the same as Japanese. There will be some changes:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "| a| i| u| e| o ---|---|---|---|---|--- y| や （ヤ）| いぃ（イィ）| ゆ（ユ）| いぇ（イェ）| よ（ヨ） w| わ（ワ）| うぃ（ウィ）| うぅ（ウゥ）| うぇ（ウェ）| を（ヲ）"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Note that in some textbooks, they will use をぅ instead of うぅ, but just stick to what is in the chart for the sake of this course."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Also note that っ represents a glottal stop."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "e9893520-0a2e-4656-8d6f-3d17c47f424b",
+        "title": "Explanation for 穴 in Okinawan",
+        "type": "rich",
+        "order_index": 2,
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "I wrote that it may mean pit, but let me explain. It can mean a hole that goes vertically, but it can also mean the holes for house poles often used to make a low house like the picture below:"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "vocabulary": []
+}

@@ -1,0 +1,42 @@
+{
+  "formatVersion": "2.0",
+  "createdAt": "2025-10-01T16:53:22.304Z",
+  "project": {
+    "name": "RY331: Intermediate Okinawan 1 (WIP, 3/25)",
+    "description": "Meant for intermediate Okinawan language learners."
+  },
+  "courseStructure": [
+    {
+      "id": "e79fe279-9000-414a-b2ce-014b982b90dc",
+      "title": "RY331: Intermediate Okinawan 1 (WIP, 3/25) Lessons",
+      "lessons": [
+        {
+          "id": "30-chapter-0",
+          "title": "Chapter 30: Chapter 0",
+          "path": "course/30-chapter-0.json"
+        },
+        {
+          "id": "31-chapter-1",
+          "title": "Chapter 31: Chapter 1",
+          "path": "course/31-chapter-1.json"
+        },
+        {
+          "id": "37-chapter-2",
+          "title": "Chapter 37: Chapter 2",
+          "path": "course/37-chapter-2.json"
+        },
+        {
+          "id": "60-chapter-3",
+          "title": "Chapter 60: Chapter 3",
+          "path": "course/60-chapter-3.json"
+        },
+        {
+          "id": "103-chapter-4",
+          "title": "Chapter 103: Chapter 4",
+          "path": "course/103-chapter-4.json"
+        }
+      ]
+    }
+  ],
+  "tables": []
+}
