@@ -3,7 +3,8 @@
   "createdAt": "2025-10-01T16:53:22.304Z",
   "project": {
     "name": "RY331: Intermediate Okinawan 1 (WIP, 3/25)",
-    "description": "Meant for intermediate Okinawan language learners."
+    "description": "Meant for intermediate Okinawan language learners.",
+    "language": "Okinawan"
   },
   "courseStructure": [
     {

@@ -2,7 +2,8 @@
   "formatVersion": "2.0",
   "createdAt": "2025-10-01T16:53:22.296Z",
   "project": {
-    "name": "RY131: Okinawan Vocabulary 1 (WIP)"
+    "name": "RY131: Okinawan Vocabulary 1 (WIP)",
+    "language": "Okinawan"
   },
   "courseStructure": [
     {
