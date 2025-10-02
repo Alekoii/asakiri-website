@@ -85,6 +85,7 @@ type SiteLinks = {
   github: string;
   discord: string;
   download: string;
+  roadmap: string;
   demoVideo: string;
   supportEmail: string;
   patreon: string;
@@ -138,6 +139,7 @@ export const siteConfig = {
     github: "https://github.com/Alekoii/asakiri-website",
     discord: "https://discord.gg/6VhDw5RXJ2",
     download: "/download",
+    roadmap: "/roadmap",
     demoVideo: "https://youtu.be/LJoEt5Qoz2M",
     supportEmail: "alok@asakiri.com",
     patreon: "https://www.patreon.com/c/asakiri",
@@ -238,7 +240,7 @@ export const siteConfig = {
         build: {
           href: "https://github.com/Alekoii/asakiri-website/releases/download/v0.2.2/Asakiri.app.zip",
           label: "Download for macOS",
-          fileSize: "DMG • 12.2 MB",
+          fileSize: "APP • 12.2 MB",
           checksumHref: "",
           external: true,
         },
@@ -268,6 +270,7 @@ export const siteConfig = {
         title: "Explore",
         links: [
           { label: "Download Course Creator", href: "/download" },
+          { label: "Roadmap", href: "/roadmap" },
           { label: "Courses", href: "/courses" },
           {
             label: "Watch demo",
