@@ -1,6 +1,8 @@
 import type { LucideIcon } from "lucide-react";
 import {
+  Bird,
   Braces,
+  Cloud,
   Download,
   Globe,
   Layers,
@@ -317,6 +319,16 @@ export const siteConfig = {
         label: "Discord",
         href: "https://discord.gg/6VhDw5RXJ2",
         icon: MessageCircle,
+      },
+      {
+        label: "Bluesky",
+        href: "https://bsky.app/profile/asakiri.com",
+        icon: Cloud,
+      },
+      {
+        label: "Twitter",
+        href: "https://twitter.com/asakirilang",
+        icon: Bird,
       },
       {
         label: "Watch demo",
