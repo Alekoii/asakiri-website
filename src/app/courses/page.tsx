@@ -78,7 +78,7 @@ export default async function CoursesPage() {
     <>
       <Seo title="Courses" description="Browse the available Asakiri courses." canonical={canonical} />
       <Header />
-      <div className="space-y-8 p-8">
+      <div className="space-y-8 p-8 max-w-6xl mx-auto">
         <header className="space-y-1">
           <h1 className="text-3xl font-semibold tracking-tight">Courses</h1>
           <p className="text-muted-foreground">
